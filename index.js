@@ -5,7 +5,7 @@ const app = express();
 
 const HOST = process.env.ATERNOS_HOST || 'god_broo.aternos.me';
 const PORT = Number(process.env.ATERNOS_PORT || '18625');
-const VERSION = process.env.MC_VERSION || '1.20.1';
+const VERSION = process.env.MC_VERSION || '1.19.2';
 
 app.get('/', (req, res) => res.send('✅ Mineboty on Render is alive!'));
 const WEB_PORT = process.env.PORT || 8080;
