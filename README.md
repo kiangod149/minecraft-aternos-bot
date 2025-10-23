@@ -1,0 +1,2 @@
+# minecraft-aternos-bot
+bot
